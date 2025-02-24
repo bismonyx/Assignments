@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpaum2k7sfjm4"]
+
+[ext_resource type="Texture2D" uid="uid://kcmfnmyqpena" path="res://city silhouette.png" id="1_lcqvh"]
+
+[node name="City Silhouette" type="Sprite2D"]
+position = Vector2(585, 194)
+scale = Vector2(1.05495, 0.76462)
+texture = ExtResource("1_lcqvh")

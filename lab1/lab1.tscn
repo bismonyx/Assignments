@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://dwopfxq2ntb4d"]
+
+[ext_resource type="Texture2D" uid="uid://ck237xa3ie3ah" path="res://cyberpunk bkg.jpg" id="1_vsc3s"]
+[ext_resource type="Texture2D" uid="uid://bj3rvekqllp0y" path="res://Bad Guy 1.png" id="2_puaea"]
+[ext_resource type="Texture2D" uid="uid://cyg2mvxpdwsl2" path="res://Hero 1.png" id="3_rhr7l"]
+[ext_resource type="Texture2D" uid="uid://kcmfnmyqpena" path="res://city silhouette.png" id="4_ch04g"]
+
+[node name="Main Scene" type="Sprite2D"]
+position = Vector2(535, 332)
+scale = Vector2(0.436979, 0.436979)
+texture = ExtResource("1_vsc3s")
+
+[node name="BadGuy1" type="Sprite2D" parent="."]
+position = Vector2(-664.421, 164.686)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_puaea")
+
+[node name="Hero1" type="Sprite2D" parent="."]
+position = Vector2(658.742, 94.6469)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("3_rhr7l")
+
+[node name="City Silhouette" type="Sprite2D" parent="."]
+position = Vector2(-1012.72, -497.843)
+scale = Vector2(2.98056, 2.16029)
+texture = ExtResource("4_ch04g")
