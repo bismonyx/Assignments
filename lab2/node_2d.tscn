@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://bcqamqovcoe1a"]
+
+[ext_resource type="Texture2D" uid="uid://d3nu8nslugtbs" path="res://stars.jpg" id="1_oky5j"]
+[ext_resource type="Texture2D" uid="uid://c7bimei8jdahd" path="res://luna transparent.png" id="1_vjm2h"]
+[ext_resource type="Script" path="res://stars.gd" id="2_kydxe"]
+[ext_resource type="Script" path="res://cat.gd" id="2_xacn0"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Stars" type="Sprite2D" parent="."]
+position = Vector2(568, 334)
+scale = Vector2(0.71, 0.316)
+texture = ExtResource("1_oky5j")
+script = ExtResource("2_kydxe")
+
+[node name="Cat" type="Sprite2D" parent="."]
+position = Vector2(596, 367)
+scale = Vector2(0.17253, 0.172531)
+texture = ExtResource("1_vjm2h")
+script = ExtResource("2_xacn0")
